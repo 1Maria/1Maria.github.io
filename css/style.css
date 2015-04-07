@@ -486,6 +486,10 @@
 			text-align: center;
 		}
 
+				.technologies {
+					line-height: 1.5;
+				}
+
 		.box .image.featured {
 			border-radius: 0;
 			display: block;
@@ -494,10 +498,17 @@
 			width: calc(100% + 6em);
 		}
 
+				.Healthtracker {
+  				padding: 0;
+  				margin-top: 4.5em;
+				}
+
 			.box .image.featured img {
 				border-radius: 0;
 				display: block;
 				width: 100%;
+  			/*padding: 0;
+  			margin-top: 5em;*/
 			}
 
 			.box .image.featured:first-child {
@@ -518,7 +529,11 @@
 
 				.box .image.featured:last-child img {
 					border-radius: 0 0 6px 6px;
+					/*padding: 0;
+					margin-top: 5em;*/
 				}
+
+
 
 /* Icon */
 
